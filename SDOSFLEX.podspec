@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
     s2.source_files = 'src/Classes/SDOSFLEX.h'
     s2.subspec 'Categories' do |s3|
       s3.subspec 'UIApplication' do |s4|
-	      s4.source_files = 'src/Categories/UIApplication/{*.m,*.h}'
+	      s4.source_files = 'src/Classes/Categories/UIApplication/{*.m,*.h}'
 	    end
     end
   end

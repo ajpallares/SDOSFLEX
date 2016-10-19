@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2970AD741BFA153F007CFBD9"
-               BuildableName = "SDOSLoader.app"
+               BuildableName = "SDOSFLEX.app"
                BlueprintName = "SDOSFLEX"
                ReferencedContainer = "container:SDOSFLEX.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2970AD741BFA153F007CFBD9"
-            BuildableName = "SDOSLoader.app"
+            BuildableName = "SDOSFLEX.app"
             BlueprintName = "SDOSFLEX"
             ReferencedContainer = "container:SDOSFLEX.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2970AD741BFA153F007CFBD9"
-            BuildableName = "SDOSLoader.app"
+            BuildableName = "SDOSFLEX.app"
             BlueprintName = "SDOSFLEX"
             ReferencedContainer = "container:SDOSFLEX.xcodeproj">
          </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2970AD741BFA153F007CFBD9"
-            BuildableName = "SDOSLoader.app"
+            BuildableName = "SDOSFLEX.app"
             BlueprintName = "SDOSFLEX"
             ReferencedContainer = "container:SDOSFLEX.xcodeproj">
          </BuildableReference>
