@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'http://git.sdos.es/ios/SDOSFLEX'
   spec.summary      = 'Librería de conexión de los frameworks de terceros. En está librería se añaden funcionalidades para facilitar el flujo de trabajo'
   spec.source       = { :git => "http://git.sdos.es/ios/SDOSFLEX.git", :branch => "feature/core" }
-  spec.framework    = ['Foundation', 'UIKit']
+  spec.framework    = ['Foundation']
   spec.requires_arc = true
 
   spec.subspec 'FLEX' do |s2|
@@ -19,5 +19,7 @@ Pod::Spec.new do |spec|
 	    end
     end
   end
+
   spec.dependency 'FLEX'
+
 end
