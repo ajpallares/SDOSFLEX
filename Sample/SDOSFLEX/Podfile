@@ -16,7 +16,8 @@ use_frameworks!
 
 #=====================Core=====================
 pod 'SDOS', :podspec => '../../../SDOS/SDOS.podspec'
-pod 'SDOSFLEX', :path => '../../'
+pod 'SDOSFLEX', :path => '../../', :configurations => ['Debug', 'Preproduction']
+pod 'FLEX', :configurations => ['Debug', 'Preproduction']
 
 #=====================Script post install=====================
 post_install do |installer|

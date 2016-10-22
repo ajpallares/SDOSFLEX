@@ -9,19 +9,17 @@
 static const NSString *suffix_selector = @"SDOSFLEX_";
 
 #import "UIApplication+SDOSFLEX.h"
-#if defined(PREPRODUCTION) || defined(DEBUG)
 #import <FLEX/FLEX.h>
-#endif
 
 @implementation UIApplication (SDOSFLEX)
 
 #pragma mark - Flex
-#if defined(PREPRODUCTION) || defined(DEBUG)
 
 - (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event
 {
     if(event.type == UIEventSubtypeMotionShake)
     {
+		[FLEXManager sharedManager].networkDebuggingEnabled = YES;
         [[FLEXManager sharedManager] showExplorer];
     }
 }
@@ -30,7 +28,5 @@ static const NSString *suffix_selector = @"SDOSFLEX_";
 {
     return YES;
 }
-
-#endif
 
 @end
