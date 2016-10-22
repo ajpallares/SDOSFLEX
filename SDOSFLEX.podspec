@@ -20,6 +20,6 @@ Pod::Spec.new do |spec|
     end
   end
 
-  spec.dependency 'FLEX'
+  spec.dependency 'FLEX', '~> 2.4.0'
 
 end
