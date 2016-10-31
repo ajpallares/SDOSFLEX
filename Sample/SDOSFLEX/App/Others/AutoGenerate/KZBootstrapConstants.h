@@ -1,8 +1,7 @@
 //  FICHERO AUTOGENERADO - NO MODIFICAR
 //  KZBootstrapConstants.h
 //
-//  Created by SDOS on 10/22/2016.
-//  Copyright (c) 2016 SDOS. All rights reserved.
+//  Created by SDOS
 //
 
 #if !defined(__has_include)
