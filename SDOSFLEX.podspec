@@ -6,8 +6,8 @@ Pod::Spec.new do |spec|
   spec.version      = @version
   spec.license      = { :type => 'SDOS License' }
   spec.homepage     = 'http://git.sdos.es/ios/SDOSFLEX'
-  spec.summary      = 'Librería de conexión de los frameworks de terceros. En está librería se añaden funcionalidades para facilitar el flujo de trabajo'
-  spec.source       = { :git => "http://git.sdos.es/ios/SDOSFLEX.git", :branch => "feature/core" }
+  spec.summary      = 'Librería que muestra la barra de herramientas de la librería FLEX al agitar el dispositivo'
+  spec.source       = { :git => "http://git.sdos.es/ios/SDOSFLEX.git", :tag => "v#{spec.version}" }
   spec.framework    = ['Foundation']
   spec.requires_arc = true
 

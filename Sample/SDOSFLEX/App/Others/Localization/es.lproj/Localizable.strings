@@ -1,7 +1,6 @@
-//Core iOS
+// SDOSFLEX
 
-"coreiOS.cargando" = "Cargando";
-"coreiOS.error.titleDefault" = "Atención";
-"coreiOS.error.closeDefault" = "Cerrar";
-"coreiOS.error.sinConexion" = "No se ha detectado ninguna conexión. Por favor conectese a una red para obtener la información.";
-"coreiOS.error.desconocido" = "Ha ocurrido un error desconocido. Contacte con el administrador de la aplicación.";
+"Example.btnTitle" = "Ver ejemplo";
+"Example.version" = "Versión %@";
+"Example.alertMsg" = "Agita el dispositivo (o pulsa ctrl + cmd + Z si estás ejecutando la app en el simulador) para ver la barra de herramientas de FLEX";
+"Example.alertOkActionTitle" = "OK";
