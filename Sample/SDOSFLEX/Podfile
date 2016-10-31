@@ -1,4 +1,4 @@
-source 'http://git.sdos.es/ios/cocoapods-specs.git'
+source 'http://git.sdos.es/ios/CocoaPods-Specs-Test.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '8.0'
@@ -15,7 +15,7 @@ use_frameworks!
 #=================================================
 
 #=====================Core=====================
-pod 'SDOS', :podspec => '../../../SDOS/SDOS.podspec'
+pod 'SDOS/FLEX', '~> 1.0'
 pod 'SDOSFLEX', :path => '../../', :configurations => ['Debug', 'Preproduction']
 pod 'FLEX', :configurations => ['Debug', 'Preproduction']
 
