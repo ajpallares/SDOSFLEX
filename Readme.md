@@ -1,6 +1,3 @@
-# Wiki
+# SDOSFLEX
 
-Wiki para los desarrolladores iOS
-
-# Indice
-
+Esta librería está documentada en http://kc.sdos.es/display/mobility/SDOSFLEX
