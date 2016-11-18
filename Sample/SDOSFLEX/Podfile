@@ -15,6 +15,13 @@ use_frameworks!
 #=================================================
 
 #=====================Core=====================
-pod 'SDOS/FLEX', '~> 1.0'
-pod 'SDOSFLEX', :path => '../../', :configurations => ['Debug', 'Preproduction']
-pod 'FLEX', :configurations => ['Debug', 'Preproduction']
+
+def shared_pods
+	pod 'SDOS/FLEX', '~> 1.0'
+	pod 'SDOSFLEX', :path => '../../', :configurations => ['Debug', 'Preproduction']
+	pod 'FLEX', :configurations => ['Debug', 'Preproduction']
+end
+
+target :SDOSFLEX do
+	shared_pods
+end
