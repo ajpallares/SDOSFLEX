@@ -3,10 +3,11 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '8.0'
 use_modular_headers!
+inhibit_all_warnings!
 
 def shared_pods
 	pod 'SDOS/FLEX', '~> 1.0'
-	pod 'SDOSFLEX', :path => '../../', :configurations => ['Debug', 'Preproduction']
+	pod 'SDOSFLEX', :path => '../../', :configurations => ['Debug', 'Preproduction'], :inhibit_warnings => false
 	pod 'FLEX', :configurations => ['Debug', 'Preproduction']
 end
 
