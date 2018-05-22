@@ -1,12 +1,8 @@
 //
-//  UIApplication+CoreiOS.m
-//  BaseProject
+//  UIApplication+SDOSFLEX.h
 //
-//  Created by Rafael Fernandez Alvarez on 24/11/15.
-//  Copyright © 2015 SDOS. All rights reserved.
+//  Copyright © 2018 SDOS. All rights reserved.
 //
-
-static const NSString *suffix_selector = @"SDOSFLEX_";
 
 #import "UIApplication+SDOSFLEX.h"
 #import <FLEX/FLEX.h>

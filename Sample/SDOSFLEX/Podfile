@@ -2,19 +2,7 @@ source 'http://git.sdos.es/ios/cocoapods-specs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '8.0'
-inhibit_all_warnings!
-use_frameworks!
-
-#=================================================
-#=====================Project=====================
-#Poner aquí todas las librerías propias del proyecto
-
-
-
-#=================================================
-#=================================================
-
-#=====================Core=====================
+use_modular_headers!
 
 def shared_pods
 	pod 'SDOS/FLEX', '~> 1.0'

@@ -44,13 +44,12 @@
 		298FD6721C0701E500BA707E /* Design+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 298FD6391C0701E500BA707E /* Design+Extensions.m */; };
 		298FD6731C0701E500BA707E /* default.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 298FD63C1C0701E500BA707E /* default.bundle */; };
 		298FD6741C0701E500BA707E /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 298FD6401C0701E500BA707E /* Util.m */; };
+		5A55E1EFDB8622FE2FA3D3FB /* libPods-SDOSFLEX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F922C75BCE001283ED541508 /* libPods-SDOSFLEX.a */; };
 		5C95D5B91DC7745A0072EABD /* DocumentationFLEXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C95D5B81DC7745A0072EABD /* DocumentationFLEXViewController.m */; };
 		5C95D5BD1DC775B60072EABD /* ExampleFLEX.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C95D5BC1DC775B60072EABD /* ExampleFLEX.storyboard */; };
-		B9B51E1477FF474E78BBAD7D /* Pods_SDOSFLEX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107E7518C63566A9D8174882 /* Pods_SDOSFLEX.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		107E7518C63566A9D8174882 /* Pods_SDOSFLEX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDOSFLEX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17EFE1856AE679994C7C312D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		290A16A31BFB3146002361EF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		290A16A41BFB3146002361EF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -86,6 +85,7 @@
 		5C95D5BC1DC775B60072EABD /* ExampleFLEX.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ExampleFLEX.storyboard; sourceTree = "<group>"; };
 		677E7B3C9E92430B128F22BC /* Pods-SDOSFLEX.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDOSFLEX.production.xcconfig"; path = "Pods/Target Support Files/Pods-SDOSFLEX/Pods-SDOSFLEX.production.xcconfig"; sourceTree = "<group>"; };
 		BA25947B25BFB6DD0FB0EEB5 /* Pods-SDOSFLEX.preproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDOSFLEX.preproduction.xcconfig"; path = "Pods/Target Support Files/Pods-SDOSFLEX/Pods-SDOSFLEX.preproduction.xcconfig"; sourceTree = "<group>"; };
+		F922C75BCE001283ED541508 /* libPods-SDOSFLEX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDOSFLEX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9B51E1477FF474E78BBAD7D /* Pods_SDOSFLEX.framework in Frameworks */,
+				5A55E1EFDB8622FE2FA3D3FB /* libPods-SDOSFLEX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				17EFE1856AE679994C7C312D /* Pods.framework */,
-				107E7518C63566A9D8174882 /* Pods_SDOSFLEX.framework */,
+				F922C75BCE001283ED541508 /* libPods-SDOSFLEX.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -442,7 +442,6 @@
 				2970AD721BFA153F007CFBD9 /* Frameworks */,
 				2970AD731BFA153F007CFBD9 /* Resources */,
 				29AFB21D1C04C7CB004AB1B6 /* Warnings */,
-				3B0AFE849ABE607C1579CD9D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -559,26 +558,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nfind \"${SRCROOT}/App\" \\( -name \"*.h\" -or -name \"*.m\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
-		};
-		3B0AFE849ABE607C1579CD9D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SDOSFLEX/Pods-SDOSFLEX-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FLEX/FLEX.framework",
-				"${BUILT_PRODUCTS_DIR}/SDOSFLEX/SDOSFLEX.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLEX.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDOSFLEX.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDOSFLEX/Pods-SDOSFLEX-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		CAC2A90499CBBBC8118BA851 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
