@@ -1,4 +1,4 @@
-@version = "1.0.0"
+@version = "1.0.1"
 Pod::Spec.new do |spec|
   spec.platform     = :ios, '8.0'
   spec.name         = 'SDOSFLEX'
@@ -12,12 +12,8 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   spec.subspec 'FLEX' do |s2|
-    s2.source_files = 'src/Classes/SDOSFLEX.h'
-    s2.subspec 'Categories' do |s3|
-      s3.subspec 'UIApplication' do |s4|
-	      s4.source_files = 'src/Classes/Categories/UIApplication/{*.m,*.h}'
-	    end
-    end
+    s2.preserve_paths = 'src/Classes/*'
+    s2.source_files = ['src/Classes/*{*.m,*.h,*.swift}', 'src/Classes/**/*{*.m,*.h,*.swift}']
   end
 
   spec.dependency 'FLEX', '~> 2.4'

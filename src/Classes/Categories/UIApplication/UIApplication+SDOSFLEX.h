@@ -1,9 +1,7 @@
 //
-//  UIApplication+CoreiOS.h
-//  BaseProject
+//  UIApplication+SDOSFLEX.h
 //
-//  Created by Rafael Fernandez Alvarez on 24/11/15.
-//  Copyright © 2015 SDOS. All rights reserved.
+//  Copyright © 2018 SDOS. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

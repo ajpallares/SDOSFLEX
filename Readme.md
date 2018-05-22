@@ -1,3 +1,3 @@
 # SDOSFLEX
 
-Esta librería está documentada en http://kc.sdos.es/display/mobility/SDOSFLEX
+Esta librería está documentada en https://kc.sdos.es/x/HABm
