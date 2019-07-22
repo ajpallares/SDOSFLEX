@@ -5,7 +5,7 @@
 //
 
 #import "UIApplication+SDOSFLEX.h"
-#import <FLEX/FLEX.h>
+#import "FLEXManager.h"
 
 @implementation UIApplication (SDOSFLEX)
 

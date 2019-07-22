@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "SDOSFLEX",
+    platforms: [
+       .iOS("8.0")
+    ],
     products: [
         .library(
             name: "SDOSFLEX",
