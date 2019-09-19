@@ -5,9 +5,9 @@ Pod::Spec.new do |spec|
   spec.authors      = 'SDOS'
   spec.version      = @version
   spec.license      = { :type => 'MIT' }
-  spec.homepage     = 'https://svrgitpub.sdos.es/iOS/SDOSFLEX'
+  spec.homepage     = 'https://github.com/SDOSLabs/SDOSFLEX'
   spec.summary      = 'Librería que muestra la barra de herramientas de la librería FLEX al agitar el dispositivo'
-  spec.source       = { :git => "https://svrgitpub.sdos.es/iOS/SDOSFLEX.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://github.com/SDOSLabs/SDOSFLEX.git", :tag => "v#{spec.version}" }
   spec.framework    = ['Foundation']
   spec.requires_arc = true
 
