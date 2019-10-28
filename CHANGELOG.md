@@ -1,3 +1,7 @@
+## [HEAD]
+
+- Updated podspec to have FLEX 3 as dependency
+
 ## [1.0.1 Comentarios y estructura del podspec](https://github.com/SDOSLabs/SDOSFLEX/tree/v1.0.1)
 
 - Se ha modificado la estructura del podspec
