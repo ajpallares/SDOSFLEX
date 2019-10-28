@@ -17,7 +17,6 @@ DerivedData/
 !default.perspectivev3
 xcuserdata/
 Pods/
-Podfile.lock
 *.xcworkspace
 
 .DS_Store
