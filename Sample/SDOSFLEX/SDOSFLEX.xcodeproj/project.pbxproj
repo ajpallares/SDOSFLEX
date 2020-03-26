@@ -426,7 +426,7 @@
 				TargetAttributes = {
 					2970AD741BFA153F007CFBD9 = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = Y5G9RYLF8Y;
+						DevelopmentTeam = 43KJAD2B72;
 						LastSwiftMigration = 0930;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
@@ -448,6 +448,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				Base,
 				es,
 			);
@@ -694,7 +695,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "$(LAUNCHER_ASSETS)";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = Y5G9RYLF8Y;
+				DEVELOPMENT_TEAM = 43KJAD2B72;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "App/Configuration/SDOSFLEX-Prefix.pch";
 				INFOPLIST_FILE = App/Configuration/Info.plist;
@@ -703,7 +704,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_PACKAGE_NAME)";
 				PRODUCT_NAME = SDOSFLEX;
 				PROVISIONING_PROFILE = "e3c79fee-fab0-4405-be2d-67ad06785abb";
-				PROVISIONING_PROFILE_SPECIFIER = "DEV Generic";
+				PROVISIONING_PROFILE_SPECIFIER = "Dev Generic";
 				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSFLEX-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
